@@ -36,7 +36,7 @@ Then install it.
 pip install .
 ```
 ## Quick start
-`reDA` introduces `Signac` et al. to preprocess multi-sample scATAC-seq data and perform differential abundance testing.
+`reDA` introduces `Signac` et al. to preprocess multi-sample scATAC-seq data, and then performs differential abundance testing.
 ```python
 import numpy as np
 import pandas as pd
