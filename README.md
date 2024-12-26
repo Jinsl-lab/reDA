@@ -44,18 +44,18 @@ import scanpy as sc
 import reDA
 
 #pre-processing
-reDA.pp.preprocess(rpath="rpyprc.R",  
-                   inpath="scATAC_data.rds",  
-                   hadpath="output_data.h5Seurat", 
-                   group="dataset", 
-                   assay="ATAC",
-                   dimsta=2,dimend=30)
+reDA.pp.preprocess(rpath = "rpyprc.R",  
+                   inpath = "scATAC_data.rds",  
+                   hadpath = "output_data.h5Seurat", 
+                   group = "dataset", 
+                   assay = "ATAC",
+                   dimsta = 2,dimend = 30)
 
 #run
 res = reDA.tl.association(d,                   
             d.samplem.phenotype,  
-            re=0.3,                         
-            covs=d.samplem[['covs']])
+            re = 0.3,                         
+            covs = d.samplem[['covs']])
 ```
 ## Tutorials
 We also provide a [tutorial](https://github.com/Jinsl-lab/reDA/blob/main/demo/demo.ipynb) for running `reDA`. The test dataset is available at this [link](https://drive.google.com/drive/folders/1fGXggNzc_WQ39fbi9sx2dqIaO2QzeLy9).
