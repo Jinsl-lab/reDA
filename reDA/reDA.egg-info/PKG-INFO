@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: reDA
+Version: 1.0.0
+Summary: differential abundance testing on scATAC-seq data using random walk with restart
+Author: Zirui Chen
+Author-email: 22S112105@stu.hit.edu.cn
+License: GPL-3.0
