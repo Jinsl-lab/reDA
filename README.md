@@ -57,4 +57,5 @@ res = reDA.tl.association(d,
             covs=d.samplem[['covs']])
 ```
 ## Tutorials
-We also provide a [tutorial]() for running reDA. The test dataset is available here.
+We also provide a [tutorial](https://github.com/Jinsl-lab/reDA/blob/main/demo/demo.ipynb) for running reDA. The test dataset is available at this [link](https://drive.google.com/drive/folders/1fGXggNzc_WQ39fbi9sx2dqIaO2QzeLy9).
+
